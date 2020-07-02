@@ -1,0 +1,207 @@
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #505962;
+  font-size: 1.2rem;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Navigation */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+.navbar-nav li {
+  padding-right: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #19b362;
+}
+
+/* Jumbotron */
+#header {
+  background-image: url("./image/header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social {
+  font-size: 2.4rem;
+}
+
+.social a .fa-linkedin {
+  color: #04669a;
+}
+
+.social a .fa-github-square {
+  color: black;
+}
+
+.social a .fa-envelope-square {
+  color: cornflowerblue;
+}
+
+.social a .fa-facebook-square {
+  color: #3b5998;
+}
+
+.social.social a :hover {
+  color: #19b362;
+}
+
+@media (max-width: 900px) {
+  .social {
+    font-size: 2rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  #header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  #header h2 {
+    font-size: 1.6rem;
+  }
+
+  #header h4 {
+    font-size: 1.2rem;
+  }
+
+  #header jumbotron {
+    height: 40em;
+  }
+}
+
+/* About me */
+.content {
+  margin: auto 3.5em;
+}
+
+.styled {
+  font-size: 3em;
+  font-weight: bold;
+  color: #3b5998;
+  font-family: "Pacifico", cursive;
+}
+
+.intro {
+  font-size: 1.2em;
+}
+
+#aboutme .jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+}
+
+h3.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #19b362;
+  margin: 0 auto 2rem;
+  margin-bottom: 4rem;
+}
+
+.mylife img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote .svg-inline--fa {
+  color: #19b362;
+  margin: 1rem;
+}
+
+hr.mylife {
+  border-top: 0.05rem solid #19b362;
+}
+
+/* Education and Skills  */
+
+/* Projects */
+.heading-projects {
+  width: 8rem;
+  height: 0.2rem;
+  background-color: #19b362;
+  margin: 0 auto 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Contact */
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 2rem;
+}
+
+.footerContent {
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer .svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+footer .svg-inline--fa:hover {
+  color: #19b362;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+.email {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+footer .email:hover {
+  color: #19b362;
+}
