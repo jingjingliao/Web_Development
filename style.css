@@ -119,6 +119,7 @@ body {
 
 .intro {
   font-size: 1.2em;
+  color: black;
 }
 
 #aboutme .jumbotron {
@@ -161,6 +162,11 @@ hr.mylife {
 #projects .card {
   margin: auto 2rem;
   margin-bottom: 4rem;
+}
+
+span {
+  color: #3b5998;
+  font-weight: bold;
 }
 
 /* Contact */
