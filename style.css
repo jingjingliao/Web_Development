@@ -158,11 +158,8 @@ hr.mylife {
 /* Education and Skills  */
 
 /* Projects */
-.heading-projects {
-  width: 8rem;
-  height: 0.2rem;
-  background-color: #19b362;
-  margin: 0 auto 2rem;
+#projects .card {
+  margin: auto 2rem;
   margin-bottom: 4rem;
 }
 
